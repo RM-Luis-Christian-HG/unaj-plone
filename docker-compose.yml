@@ -15,7 +15,7 @@ services:
     image: plone/plone-frontend:latest
     environment:
       RAZZLE_INTERNAL_API_PATH: http://backend:8080/Plone
-      RAZZLE_API_PATH: http://localhost/Plone
+      RAZZLE_API_PATH: http://54.198.232.116/Plone
     ports:
       - "3000:3000"
     depends_on:
