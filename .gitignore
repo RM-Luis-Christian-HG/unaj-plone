@@ -1,0 +1,9 @@
+# Ignora archivos de Docker y backups
+*.tar.gz
+*.log
+__pycache__/
+*.pyc
+.env
+*.sqlite3
+node_modules/
+data/
