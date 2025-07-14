@@ -1,0 +1,12 @@
+# Ignorar backups y archivos grandes
+*.tar.gz
+
+# Archivos temporales
+*.log
+*.swp
+*.tmp
+
+# Carpetas específicas (si existieran)
+__pycache__/
+node_modules/
+backup/
