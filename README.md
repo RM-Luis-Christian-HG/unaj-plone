@@ -12,5 +12,6 @@ Repositorio con la configuración base de Plone 6 + Volto para el portal de gest
 
 1. Clonar este repo en otro equipo
 2. Modificar el composer.yml, en frontend en la linea RAZZLE_API_PATH: http://@IP_PUBLICA/++api++, con tu IP de EC2 propia.
-3. Restaurar el volumen de datos
-4. Ejecutar `docker-compose up -d`
+3. De igual manera en el default.conf se debe cambiar en esta con línea tu IP de EC2 propia, rewrite ^/\+\+api\+\+(.*)$ /VirtualHostBase/http/@IP_PUBLICA/Plone/++api++/VirtualHostRoot$1 break;
+4. Restaurar el volumen de datos
+5. Ejecutar `docker-compose up -d`
